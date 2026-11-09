@@ -1,4 +1,12 @@
-# fefw-recomp
+# fefw-recomp — unofficial source archive
+
+This independent archive preserves the published source of **fefw-recomp** in case the upstream repository becomes unavailable. The original project was created by [Goldoire](https://github.com/Goldoire). Credit for the code belongs to Goldoire and the contributors named in the [upstream repository](https://github.com/Goldoire/fefw-recomp) and the [Credits](#credits) below.
+
+This snapshot is based on upstream [v0.1.4](https://github.com/Goldoire/fefw-recomp/tree/v0.1.4), commit `45a1904ca81995bfea39cb7aa1012851d3aa84d8`. On 2026-11-09, this archive added the preservation and attribution notice, updated the documentation links, and added ignore rules for local packages.
+
+The archive carries the upstream [GPL-3.0 license](LICENSE) and retains the third-party notices and licenses. Game dumps, firmware, decryption keys, files generated from game data, and prebuilt release downloads are outside the scope of this archive. See [LEGAL.md](LEGAL.md).
+
+## About the upstream project
 
 A native Windows PC port of **Fire Emblem: Fortune's Weave** (Nintendo Switch 2), made by static recompilation. The game's code is
 translated to C++ and compiled into a regular Windows program, which runs on a small runtime that stands in for the console's system
@@ -31,7 +39,7 @@ software and draws with Vulkan. It is not an emulator.
 
 ## Getting started
 
-1. Download `fefw-recomp-<version>-win64.zip` from the [Releases](../../releases) page and extract it to its own folder.
+1. Download `fefw-recomp-<version>-win64.zip` from the [upstream Releases](https://github.com/Goldoire/fefw-recomp/releases) page and extract it to its own folder.
 2. Run `fefw-launcher.exe`.
 3. On **Setup**, choose your dump folder (or **.nup** file) and press **Set up**. The launcher checks your files, builds the game on
    your PC and prepares the shaders. The first setup takes a while; you can **Pause** it and continue later.
@@ -58,12 +66,12 @@ Extract the new zip to a new folder, copy your `save\` folder into it, and run *
 
 ## Reporting problems
 
-Open an [issue](../../issues) with `fefw.log`, your GPU, driver and Windows version, and the release you used. Please do not attach
+Open an [upstream issue](https://github.com/Goldoire/fefw-recomp/issues) with `fefw.log`, your GPU, driver and Windows version, and the release you used. Please do not attach
 game files or anything made from them.
 
 ## Building from source
 
-See [docs/BUILDING.md](docs/BUILDING.md). Contributions are welcome.
+See [docs/BUILDING.md](docs/BUILDING.md). Submit contributions to the upstream project while it is available.
 
 ## Credits
 

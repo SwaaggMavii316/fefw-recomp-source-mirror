@@ -12,6 +12,9 @@ bc7_cache/
 *.xci
 *.nsz
 *.xcz
+*.nup
+nup_dump/
+fefw-recomp-*-win64.zip
 *.keys
 exefs/
 romfs/
